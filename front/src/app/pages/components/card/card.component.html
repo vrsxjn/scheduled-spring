@@ -1,0 +1,9 @@
+<mat-card class="custom-card">
+  <mat-card-header style="display: flex; justify-content: space-between; align-items: center;">
+    <mat-card-title>{{ data.name }}</mat-card-title>
+    <mat-card-subtitle>
+      <a [routerLink]="data.authorizationServerUrl" target="_blank">{{ data.authorizationServerUrl }}</a>
+    </mat-card-subtitle>  
+  </mat-card-header>
+  <img mat-card-image [src]="data.logoUrl">
+</mat-card>
