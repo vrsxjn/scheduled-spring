@@ -52,7 +52,7 @@ CREATE TABLE open_banking_participant (
 
 ## Frontend
 
-1. Navegue até a pasta `front-angular` no seu terminal.
+1. Navegue até a pasta `front` no seu terminal.
 
 2. Execute o seguinte comando para instalar as dependências do Angular:
 
